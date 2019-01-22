@@ -1,0 +1,32 @@
+header {
+  border-bottom:1px solid MediumAquamarine;
+}
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+h2 {
+  display: flex;
+  width: 50%;
+}
+
+.navigation {
+  display: flex;
+  width: 30%;
+}
