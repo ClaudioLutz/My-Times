@@ -10,13 +10,14 @@ nav {
   margin: 0;
   display: flex;
   color: black;
-  padding: 20px;
+  padding: 22px;
   }
 
 .navigation {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+
 }
 
 a {
@@ -26,5 +27,5 @@ a {
 
 h2 {
   display: flex;
-  width: 50%;
+  width: 30%;
 }
