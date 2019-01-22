@@ -1,32 +1,30 @@
 header {
-  border-bottom:1px solid MediumAquamarine;
-}
-
-header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom:1px solid MediumAquamarine;
 }
 
 nav {
   margin: 0;
-  padding: 20px 0;
+  display: flex;
+  color: black;
+  padding: 20px;
+  }
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-nav {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: flex-end;
+a {
+  color: black;
+  margin: 5px;
 }
 
 h2 {
   display: flex;
   width: 50%;
-}
-
-.navigation {
-  display: flex;
-  width: 30%;
 }
