@@ -57,6 +57,10 @@ div{
   margin-right: 32px;
 }
 
+.cookie {
+  width: 100%;
+
+}
 
 .column.large{
    width: 630px;
