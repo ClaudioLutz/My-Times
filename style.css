@@ -1,18 +1,21 @@
-header {
+@@charset "UTF-8";
+
+/*header*/
+header{
   display: flex;
   align-items: center;
-  font-family: Verdana;
   position: fixed;
   z-index: 1;
   width: 100%;
   height: 80px;
-  font-size: 14px;
-  font-weight: bold;
   border-bottom:1px solid black;
   background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.logo {
+.logo{
   display: flex;
   align-items: center;
   flex-grow: 1;
@@ -25,10 +28,45 @@ header {
   margin-right: 12px;
 }
 
-.logo span {
+.logo span{
   color: MediumAquamarine;
 }
 
 header nav{
   padding-right: 40px;
+}
+
+/*Main Content*/
+.content{
+  display: flex;
+  width: 1300px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 78px;
+  margin-left: auto;
+  padding-top: 116px;
+}
+
+div{
+  border: 1px solid black;
+}
+
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.columnn.large{
+   width: 63px;
+}
+
+
+.column.medium{
+  width: 300px;
+}
+
+.column.small{
+  width: 240px;
 }
