@@ -63,6 +63,7 @@ div{
   font-weight: bold;
   font-size: 40px;
   color: white;
+
 }
 
 .cookie {
@@ -81,7 +82,9 @@ div{
   font-size: 30px;
   color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-
+  height: 80px;
+  text-align: center;
+  padding-top: 100px; 
 }
 
 
