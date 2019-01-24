@@ -84,9 +84,18 @@ div{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
   height: 80px;
   text-align: center;
-  padding-top: 100px; 
+
 }
 
+.camera-research.image-content{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 80px;
+  text-align: center;
+}
 
 .column.medium{
   width: 300px;
