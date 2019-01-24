@@ -66,6 +66,23 @@ div{
    width: 630px;
 }
 
+.lead-story .image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.fall-cancelled .image-content{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+
+}
+
 
 .column.medium{
   width: 300px;
