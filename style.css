@@ -30,10 +30,12 @@ header{
 
 .logo span{
   color: MediumAquamarine;
+  padding-left: 3px;
 }
 
-header nav{
-  padding-right: 40px;
+header nav a{
+  padding-right: 10px;
+  color: black;
 }
 
 /*Main Content*/
@@ -53,7 +55,7 @@ p.narrative{
 }
 
 div{
-  border: 1px solid black;
+/*  border: 1px solid black;*/
 }
 
 .column{
@@ -68,22 +70,20 @@ div{
   font-weight: bold;
   font-size: 40px;
   color: white;
-
+  padding: 40px 0px 40px 10px
 }
 
 .cookie {
   width: 100%;
-
 }
 
 .column.large{
    width: 630px;
-
 }
 
 
 .fall-cancelled.image-content{
-  display: flex;
+  display:flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -94,7 +94,7 @@ div{
 }
 
 .camera-research.image-content{
-  display: flex;
+  display:flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -103,6 +103,7 @@ div{
   height: 80px;
   text-align: center;
 }
+
 
 .column.medium{
   width: 300px;
@@ -117,6 +118,7 @@ div{
   color: white;
   height: auto;
   text-align: center;
+  padding: 40px 0px 40px 0px;
 }
 
 .column.small{
@@ -131,11 +133,12 @@ h3{
   text-align: center;
 }
 
-.bite{
+span.bite{
+  display: block;
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
-  border-bottom: 1px solid black;
-  padding-bottom: 3px;
+  padding: 10px 50px 10px 10px;
+  border-bottom: 1px solid DimGray;
 }
